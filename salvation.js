@@ -76,11 +76,10 @@ function delay(ms) {
 }
 
 async function randomInterval() {
-    for (let i = 1; i <= 100; i++) {
+    while (true) {
         var delTime = Math.random() * 3600000;
         await delay(delTime);
         resetChannels();
-        i--;
     }
 }
 
