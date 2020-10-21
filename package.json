@@ -1,0 +1,13 @@
+{
+  "name": "salvation_bot",
+  "version": "0.0.1",
+  "dependencies": {
+    "discord.js": "~11.5.1",
+    "async-limiter": "~1.0.1",
+    "long": "~4.0.0",
+    "prism-media": "~1.2.2",
+    "snekfetch": "3.6.4",
+    "tweetnacl": "1.0.3",
+    "ws": "6.2.1"
+  }
+}
